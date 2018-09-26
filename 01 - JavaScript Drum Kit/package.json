@@ -1,0 +1,17 @@
+{
+  "name": "reload",
+  "version": "1.0.0",
+  "description": "synchronic browsers",
+  "main": "index.js",
+  "scripts": {
+    "reload": "browser-sync start --files \"./**/*.html, ./**/*.css, ./**/*.js\" -server --index"
+  },
+  "keywords": [
+    "browser-sync"
+  ],
+  "author": "Janemon",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.24.7"
+  }
+}
